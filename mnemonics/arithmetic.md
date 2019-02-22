@@ -51,9 +51,6 @@ carry -> bit from carry flag
       <tr><td rowspan=3>neg</td><td rowspan=3>Negate Integer (2's Complement)</td><td colspan=2>r/m8</td><td rowspan=3>operand = -operand</td></tr>
       <tr><td colspan=2>r/m16</td></tr>
       <tr><td colspan=2>r/m32</td></tr>
-      <tr><td rowspan=3>not</td><td rowspan=3>Invert Integer (1's Complement)</td><td colspan=2>r/m8</td><td rowspan=3>operand = -operand - 1</td></tr>
-      <tr><td colspan=2>r/m16</td></tr>
-      <tr><td colspan=2>r/m32</td></tr>
       <tr><td rowspan=6>ssb</td><td rowspan=6>Subtract Integers with Borrow (Carry)</td><td>r8</td><td>r/m/i8</td><td rowspan=6>dest = dest - source - carry</td></tr>
       <tr><td>m8</td><td>r/i8</td></tr>
       <tr><td>r16</td><td>r/m/i16</td></tr>
@@ -66,6 +63,9 @@ carry -> bit from carry flag
       <tr><td>m16</td><td>r/i16</td></tr>
       <tr><td>r32</td><td>r/m/i32</td></tr>
       <tr><td>m32</td><td>r/i32</td></tr>
+      <tr><td rowspan=3>xadd</td><td rowspan=3>Exchange and Add Integers</td><td>r/m8</td><td>r8</td><td rowspan=3>dest = source, source = dest; then dest = dest + source</td></tr>
+      <tr><td>r/m16</td><td>r16</td></tr>
+      <tr><td>r/m32</td><td>r32</td></tr>
    </tbody>
 </table>
 

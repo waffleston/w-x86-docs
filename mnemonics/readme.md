@@ -7,4 +7,4 @@ Sorted By Category:
  * ~~Bitwise Instructions~~
  * ~~Floating Point Instructions~~
  * ~~Jump and Comparison Instructions~~
- * ~~Logical Instructions~~
+ * [Logical Instructions](logical.md)
